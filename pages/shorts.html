@@ -47,15 +47,6 @@
         <script src="../js/jquery.fancybox.js"></script>
         <!-- template main js -->
         <script src="../js/main.js"></script>
-        <!-- modal js -->
-        <script src="../js/modal.js"></script>
-
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
  
     </head>
 
@@ -130,6 +121,14 @@
                             </span> 
                         </a>
                     </div>
+
+                    <div class="col-sm-4">
+                        <h2>Maybe Date</h2>
+                        <a href="#" class="launch-modal" data-modal-id="modal-maybedate">
+                            <span><img class="modal-thumbnail" src="../images/movie-thumbnails/maybedate.PNG">
+                            </span> 
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -147,14 +146,56 @@
                     <div class="modal-body">
                         <div class="modal-likefatherlikeson">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/41727665&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e89a3e" 
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/TCWsCL3LbIs" 
                                             webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>     
+        
+        <div class="modal fade" id="modal-bigbreak" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-bigbreak">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/WsWU_TmF4jY"
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="modal fade" id="modal-maybedate" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-maybedate">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/d7KUJfhSRBw" 
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+
         <!-- Footer Section -->
         <footer id="footer">
             <div class="container">
