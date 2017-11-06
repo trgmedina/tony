@@ -146,7 +146,7 @@ a:hover {
   opacity: 0;
 }
 #hero-area {
-  background: url('../images/bg2.jpg') no-repeat 50%;
+  background: url('../images/bg.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 150px 0;
@@ -200,7 +200,7 @@ a:hover {
   border-radius: 0;
 }
 #hero-area-2 {
-  background: url('../images/bg2.jpg') no-repeat 50%;
+  background: url('../images/bg.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 120px 0;
