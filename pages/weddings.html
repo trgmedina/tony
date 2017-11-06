@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="icon" type="image/png" href="../images/favicon.png">
         <title>Tony F. Marquez</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
@@ -14,39 +14,40 @@
         <!-- CSS Files
         ================================================== -->
         <!-- Twitter Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <!-- Ionicons Fonts Css -->
-        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="../css/ionicons.min.css">
         <!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="../css/animate.css">
         <!-- Hero area slider css-->
-        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="../css/slider.css">
         <!-- owl craousel css -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="../css/owl.theme.css">
+        <link rel="stylesheet" href="../css/jquery.fancybox.css">
         <!-- template main css file -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="../css/main.css">
         <!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/responsive.css">
         
         <!-- Javascript Files
         ================================================== -->
         <!-- modernizr js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
         <!-- jquery -->
-        <script src="js/jquery.min.js"></script>
+        <script src="../js/jquery.min.js"></script>
         <!-- owl carouserl js -->
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
         <!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
         <!-- wow js -->
-        <script src="js/wow.min.js"></script>
+        <script src="../js/wow.min.js"></script>
         <!-- slider js -->
-        <script src="js/slider.js"></script>
-        <script src="js/jquery.fancybox.js"></script>
+        <script src="../js/slider.js"></script>
+        <script src="../js/jquery.fancybox.js"></script>
         <!-- template main js -->
-        <script src="js/main.js"></script>
+        <script src="../js/main.js"></script>
+ 
     </head>
 
     <body>
@@ -64,11 +65,7 @@
                     
                     <!-- logo -->
                     <div class="navbar-brand">
-                        <a href="index.html" style="color: #000">
-                            <!-- <img src="images/logo.png" alt=""> -->
-                            Tony F. Marquez
-                        </a>
-
+                        <h2 class="headers-color">Tony F. Marquez</h2>
                     </div>
                     <!-- /logo -->
                 </div>
@@ -77,16 +74,16 @@
                     <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="index.html" >Home</a>
+                                <a href="../index.html" >Home</a>
                             </li>
                             <li><a href="#">About</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Film<span class="caret"></span></a>
                                 <div class="dropdown-menu">
                                     <ul>
-                                        <li><a href="#">Directed Shorts</a></li>
-                                        <li><a href="#">Music | Dance Videos</a></li>
-                                        <li><a href="#">Weddings</a></li>
+                                        <li><a href="shorts.html">Directed Shorts</a></li>
+                                        <li><a href="musicvids.html">Music & Dance</a></li>
+                                        <li><a href="weddings.html">Weddings</a></li>
                                         <li><a href="#">Camera & Lighting</a></li>
                                     </ul>
                                 </div>
@@ -101,7 +98,129 @@
         </header>
         
         <!-- MAIN CONTENT HERE -->
-            
+        <section id="hero-area-2">
+            <div class="container">
+                <h1 class="headers-color">WEDDINGS</h1>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Highlight</h2>
+                        <a href="#" class="launch-modal" data-modal-id="modal-highlight">
+                            <span><img class="modal-thumbnail" src="../images/movie-thumbnails/highlight.PNG">
+                            </span> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h2>Wedding Reel</h2>
+                        <a href="#" class="launch-modal" data-modal-id="modal-reel">
+                            <span><img class="modal-thumbnail" src="../images/movie-thumbnails/reel.PNG">
+                            </span> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <h2>Save the Date</h2>
+                        <a href="#" class="launch-modal" data-modal-id="modal-savethedate">
+                            <span><img class="modal-thumbnail" src="../images/movie-thumbnails/savethedate.PNG">
+                            </span> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Rehearsal Party Highlight</h2>
+                        <a href="#" class="launch-modal" data-modal-id="modal-rehearsal">
+                            <span><img class="modal-thumbnail" src="../images/movie-thumbnails/rehearsal.PNG">
+                            </span> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- MODALS -->
+        <div class="modal fade" id="modal-highlight" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-highlight">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://player.vimeo.com/video/82264361" 
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        
+        <div class="modal fade" id="modal-reel" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-reel">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://player.vimeo.com/video/65911118"
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="modal fade" id="modal-savethedate" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-savethedate">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://player.vimeo.com/video/54572163" 
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="modal fade" id="modal-rehearsal" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-rehearsal">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://player.vimeo.com/video/46796197" 
+                                            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
         <!-- Footer Section -->
         <footer id="footer">
             <div class="container">
