@@ -1144,14 +1144,8 @@ article {
 }
 
 @media only screen and (max-width: 640px) {
-  h1 span {
-    font-size: 16px;
-  }
-  h2 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 12px;
+  .cd-words-wrapper .is-visible {
+    font-size: 18px;
   }
 }
 
