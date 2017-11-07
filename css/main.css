@@ -1144,7 +1144,7 @@ article {
 }
 
 @media only screen and (max-width: 640px) {
-  h1 {
+  h1 span {
     font-size: 16px;
   }
   h2 {
