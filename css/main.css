@@ -18,6 +18,10 @@ h6 {
 .headers-color {
   color: #0F8291;
 }
+.photography-thumbnails {
+  height: 240px;
+  width: 320px;
+}
 p {
   font-family: 'Roboto', sans-serif;
   line-height: 22px;
