@@ -15,10 +15,6 @@ h6 {
   font-weight: bold;
   margin-top: 10px;
 }
-img {
-  max-width: 100%
-  height: auto;
-}
 .headers-color {
   color: #0F8291;
 }
@@ -1155,6 +1151,10 @@ article {
 @media only screen and (max-width: 640px) {
   .is-visible {
     font-size: 34px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
