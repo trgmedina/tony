@@ -15,6 +15,10 @@ h6 {
   font-weight: bold;
   margin-top: 10px;
 }
+img {
+  max-width: 100%
+  height: auto;
+}
 .headers-color {
   color: #0F8291;
 }
