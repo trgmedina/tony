@@ -1148,6 +1148,11 @@ article {
   width: 100%;
 }
 
+.pic-thumbnail {
+  height: 180px;
+  
+}
+
 @media only screen and (max-width: 640px) {
   .is-visible {
     font-size: 34px;
@@ -1157,7 +1162,6 @@ article {
     height: auto;
   }
 }
-
 
 /*.video-link {
     padding-top: 70px;

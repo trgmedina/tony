@@ -45,15 +45,14 @@ jQuery(document).ready(function(){
 	"use strict";
 	new WOW().init();
 
- $('.launch-modal').on('click', function(e){
-    e.preventDefault();
-    $( '#' + $(this).data('modal-id') ).modal();
-});
+    $('.launch-modal').on('click', function(e){
+        e.preventDefault();
+        $( '#' + $(this).data('modal-id') ).modal();
+    });
 
-(function(){
- jQuery('.smooth-scroll').scrollingTo();
-}());
-
+    (function(){
+        jQuery('.smooth-scroll').scrollingTo();
+    }());
 
 });
 
