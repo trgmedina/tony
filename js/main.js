@@ -45,9 +45,28 @@ jQuery(document).ready(function(){
 	"use strict";
 	new WOW().init();
 
+    var modalId;
+
     $('.launch-modal').on('click', function(e){
         e.preventDefault();
         $( '#' + $(this).data('modal-id') ).modal();
+        modalId = $(this).data('modal-id');
+    });
+
+    $('.close').click(function(e) {
+        e.preventDefault();
+        var src = $('.' + modalId).find('iframe').attr('src');
+        // console.log(src);
+        $('.' + modalId).find('iframe').attr('src', '');
+        $('.' + modalId).find('iframe').attr('src', src);
+    });
+
+    $('.modal').click(function(e) {
+        e.preventDefault();
+        var src = $('.' + modalId).find('iframe').attr('src');
+        // console.log(src);
+        $('.' + modalId).find('iframe').attr('src', '');
+        $('.' + modalId).find('iframe').attr('src', src);
     });
 
     (function(){
