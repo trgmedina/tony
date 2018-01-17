@@ -1153,6 +1153,11 @@ article {
   
 }
 
+.flip-grid-view .flip-entry-title  {
+  display: none !important;
+  color: #FFF;
+}
+
 @media only screen and (max-width: 640px) {
   .is-visible {
     font-size: 34px;
