@@ -15,8 +15,8 @@ h6 {
   font-weight: bold;
   margin-top: 10px;
 }
-.headers-color {
-  color: #0F8291;
+#logo {
+  height: 75px;
 }
 .photography-thumbnails {
   height: 50%;
@@ -89,12 +89,12 @@ a:hover {
   margin-top: 32px;
 }
 .navbar-header .navbar-brand {
-  padding: 0px 10px;
+  padding: 0px 0px;
 }
 .navbar-header .navbar-brand a {
   height: auto;
   display: inline-block;
-  margin-top: 8px;
+  margin-top: -15px;
 }
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle {
@@ -114,7 +114,7 @@ a:hover {
   background: transparent;
 }
 #top-bar.animated-header {
-  padding: 20px 0;
+  padding-bottom: 20px;
   background: #ffffff;
   box-shadow: none;
 }
