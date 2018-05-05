@@ -41,6 +41,10 @@ h2 {
 a:hover {
   text-decoration: none;
 }
+.profile {
+  width: 300px;
+  height: auto;
+}
 .section-heading {
   text-align: center;
   margin-bottom: 65px;
