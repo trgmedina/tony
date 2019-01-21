@@ -150,11 +150,12 @@ a:hover {
   visibility: hidden;
   opacity: 0;
 }
-#hero-area {
+#main-area {
   background: url('../images/bg.jpg') no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
-  padding: 150px 0;
+  padding-top: 125px;
+  padding-bottom: 50px;
   color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   position: relative;
@@ -542,6 +543,9 @@ figure figcaption p {
 }
 .cd-headline.slide .cd-words-wrapper {
   color: #0F8291;
+}
+.cd-intro{
+  padding-bottom: 25px;
 }
 ul.social-icons {
   height: auto;
