@@ -30,10 +30,14 @@ p {
   color: #000;
 }
 ul {
-  padding-left: 0;
+  padding-left: 24px;
+  padding-top: 14px;
 }
 ul li {
-  list-style: none;
+  /*list-style: none;*/
+  color: #000;
+  /*padding-top: 5px;*/
+  font-size: 16px;
 }
 h2 {
   font-size: 26px;
