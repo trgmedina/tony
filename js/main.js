@@ -73,15 +73,9 @@ jQuery(document).ready(function(){
         jQuery('.smooth-scroll').scrollingTo();
     }());
 
-});
-
-
-
-
-$(document).ready(function(){
-
-
-
+    $('iframe').on('load', function() {
+        $("iframe").contents().find(".flip-entry-title").css("display", "none");
+    }); 
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > 50) {
