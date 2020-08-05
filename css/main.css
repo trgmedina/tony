@@ -1180,6 +1180,22 @@ height: 100%;
   margin-bottom: 1.5rem;
 }
 
+img#aboutpic {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+#about-bio {
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+#about-bio p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
 @media only screen and (max-width: 640px) {
   .is-visible {
     font-size: 34px;
