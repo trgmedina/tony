@@ -1106,7 +1106,7 @@ article {
   margin-right: 15px;
 }
 .social li a {
-  font-size: 22px;
+  font-size: 2.5rem;
   color: #0F8291;
 }
 ul.social-icons {
@@ -1118,6 +1118,13 @@ ul.social-icons li {
   float: none;
   display: inline-block;
   height: 36px;
+}
+.contact-social {
+  text-align: left;
+  padding: 0;
+}
+.contact-social li a {
+  font-size: 4rem;
 }
 
 /***** Modal *****/
