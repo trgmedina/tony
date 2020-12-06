@@ -83,19 +83,20 @@ px      68    160    252    */
   #footer .social {
     text-align: center;
   }
-  .dropdown-menu > ul > li > a {
+  .dropdown-menu > ul > li,
+  .dropdown-menu > ul > li > a,
+  .dropdown-menu > ul > li > ul > li > a {
     display: block;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px;
     color: #333;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
   .dropdown-menu > ul {
     list-style: none;
-    padding: 0 15px;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -114,7 +115,7 @@ px      68    160    252    */
   }
   #top-bar .dropdown-menu > ul {
     list-style: none;
-    padding: 0 15px;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -123,15 +124,16 @@ px      68    160    252    */
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 2px 0.09px rgba(0, 0, 0, 0.15);
   }
-  #top-bar .dropdown-menu > ul > li > a {
+  #top-bar .dropdown-menu > ul > li,
+  #top-bar .dropdown-menu > ul > li > a,
+  #top-bar .dropdown-menu > ul > li > ul > li > a {
     display: block;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px;
     color: #333;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 }
 /*		Wide Mobile Layout: 480px.

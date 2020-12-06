@@ -1095,7 +1095,6 @@ article {
   line-height: normal;
   text-decoration: none;
   color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 #top-bar .dropdown-menu > ul > li, 
 #top-bar .dropdown-menu > ul > li > ul > li {
