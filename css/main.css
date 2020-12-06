@@ -1074,7 +1074,7 @@ article {
 }
 .dropdown-menu > ul {
   list-style: none;
-  padding: 15px;
+  padding: 15px 15px 8px 15px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -1087,15 +1087,22 @@ article {
 .nav .open > a:focus {
   background-color: transparent;
 }
-#top-bar .dropdown-menu > ul > li > a {
+#top-bar .dropdown-menu li, 
+#top-bar .dropdown-menu li a {
   display: block;
   font-size: 13px;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
-  padding: 8px 0;
   color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#top-bar .dropdown-menu > ul > li, 
+#top-bar .dropdown-menu > ul > li > ul > li {
+  padding: 5px 0;
+}
+#top-bar .dropdown-menu > ul > li > ul {
+  padding-top: 7px;
 }
 .social {
   text-align: right;
